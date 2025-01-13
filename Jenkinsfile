@@ -18,19 +18,19 @@ pipeline {
                 ])
             }
         }
-        // stage('Build Backend Services') {
-        //     steps {
-        //         script {
-        //             // Build each Spring Boot service
-        //             def services = ['question-service', 'contribute-service', 'quiz-service','service-registry','api-gateway','cloud-config-server']
-        //             for (service in services) {
-        //                 dir(service) {
-        //                     sh "mvn clean package"
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
+        stage('Build Backend Services') {
+            steps {
+                script {
+                    // Build each Spring Boot service
+                    def services = ['question-service', 'contribute-service', 'quiz-service','service-registry','api-gateway','cloud-config-server']
+                    for (service in services) {
+                        dir(service) {
+                            sh "mvn clean package"
+                        }
+                    }
+                }
+            }
+        }
         
         // stage('Test Backend Services') {
         //     steps {
