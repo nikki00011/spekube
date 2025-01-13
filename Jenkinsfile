@@ -14,7 +14,7 @@ pipeline {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [[$class: 'CloneOption', timeout: 15]],
                     submoduleCfg: [],
-                    userRemoteConfigs: [[url: 'https://github.com/saihemath2000/SPEMAJOR.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/nikki00011/spekube.git']]
                 ])
             }
         }
