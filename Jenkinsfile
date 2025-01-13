@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_REGISTRY_CREDENTIALS = 'DockerHubCred' 
+        DOCKER_REGISTRY_CREDENTIALS = 'docker123' 
     }
     
     stages {
