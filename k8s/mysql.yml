@@ -37,8 +37,10 @@ spec:
         - name: mysql
           image: mysql:latest
           env:
-            - name: MYSQL_ROOT_PASSWORD
-              value: "Hemanth@2000"
+            - name: MYSQL_USER
+              value: "NIKITA"
+            - name: MYSQL_PASSWORD
+              value: "Nikita11!"
           ports:
             - containerPort: 3306
               name: mysql
