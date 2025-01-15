@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/saihemath2000/config-server
+          uri: https://github.com/nikki00011/config-server
           clone-on-start: true
 eureka:
   instance:
