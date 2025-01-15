@@ -70,7 +70,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>saihemanth1997/service-registry</repository>
+					<repository>nikki00011/service-registry</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
