@@ -4,8 +4,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${DB_URL:jdbc:mysql://localhost:3306/Quiz?createDatabaseIfNotExist=true}
-    username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:Hemanth@2000}
+    username: ${DB_USERNAME:NIKITA}
+    password: ${DB_PASSWORD:Nikita11!}
   jpa:
     hibernate:
       ddl-auto: update
