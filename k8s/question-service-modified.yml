@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: question-service-app
-          image: saihemanth1997/question-service:0.0.1
+          image: nikki00011/question-service:0.0.1
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8086
           env:
             - name: EUREKA_HOSTNAME
               valueFrom:
@@ -89,5 +89,5 @@ data:
   EUREKA_FETCH_REGISTRY: "true"
   EUREKA_DEFAULT_ZONE: http://eureka-0.eureka.webapps.svc.cluster.local:8761/eureka
   DB_URL: jdbc:mysql://mysql-svc:3306/Question?createDatabaseIfNotExist=true
-  DB_USERNAME: root
-  DB_PASSWORD: Hemanth@2000
+  DB_USERNAME: NIKITA
+  DB_PASSWORD: Nikita11!
