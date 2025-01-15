@@ -101,7 +101,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>saihemanth1997/quiz-service</repository>
+					<repository>nikki00011/quiz-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
