@@ -91,7 +91,7 @@ pipeline {
           }
         }
         
-     //  stage('deploy to kubernetes') {
+     //  stage('deploy to kubernetes') {https://github.com/saihemath2000/SPEMAJOR/tree/master/frontend
      //      steps {
      //         withKubeConfig(caCertificate: '', clusterName: 'minikube', contextName: '', credentialsId: 'k8-cred', namespace: 'webapps', restrictKubeConfigAccess: false, serverUrl: 'https://192.168.49.2:8443') {
      //           sh "kubectl apply -f k8s/"  
