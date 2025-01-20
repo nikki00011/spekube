@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nikki00011/front-end
+          image: nikki00011/front-end:0.0.1
           ports:
             - containerPort: 3000
           # resources:
