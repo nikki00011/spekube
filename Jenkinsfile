@@ -90,7 +90,15 @@ pipeline {
               }
           }
         }
-        
+        Sign up in https://ngrok.com/
+
+2. Download ngrok from: https://bin equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
+
+3. Then extract ngrok from the terminal: Ssudo tar xvzf/Downloads/ngrok-stable-linux-amd64.tgz-C/usr/local/bin
+
+4. Copy Authtoken from: https://dashboard.ngrok.com/get-started/your-authtoken
+
+5. Add Authtoken: Sngrok authtoken <token>
      //  stage('deploy to kubernetes') {https://github.com/saihemath2000/SPEMAJOR/tree/master/frontend
      //      steps {
      //         withKubeConfig(caCertificate: '', clusterName: 'minikube', contextName: '', credentialsId: 'k8-cred', namespace: 'webapps', restrictKubeConfigAccess: false, serverUrl: 'https://192.168.49.2:8443') {
